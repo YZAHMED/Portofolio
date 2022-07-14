@@ -43,4 +43,5 @@ nav img{
     height: 200px;
     border: 2px solid blue;
     margin: 2px 2px;
+    cursor: pointer;
 }
