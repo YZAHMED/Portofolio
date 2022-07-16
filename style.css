@@ -17,6 +17,7 @@ nav{
     border: 2px solid red;
     width: 100%;
     height: auto;
+    background-color: white;
 }
 
 nav ul{
@@ -33,17 +34,19 @@ nav ul li a{
     text-decoration: none;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all ease-in-out 200ms 100ms;
+    transition: all ease-in-out;
 }
 nav ul li a:hover{
     border-bottom: 2px solid blue ;
     color: blue;
 }
 
-nav img{
+section{
+    display: grid;
+}
+
+img{ 
+    background-color: orange;
     width: 200px;
     height: 200px;
-    border: 2px solid blue;
-    margin: 2px 2px;
-    cursor: pointer;
 }
