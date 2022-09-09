@@ -29,6 +29,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -177,8 +178,13 @@ a p {
 }
 
 footer{
-    text-align: center;
     background-color: #1c1d25;
     color: white;
     padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
 }
